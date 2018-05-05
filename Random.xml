@@ -1,0 +1,136 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mcimport" id="^N=:OwNuY-q,mvWVsnn=" x="150" y="-3">
+    <next>
+      <block type="importmb" id="uJf1i;}R:)Q~`K;{,w~}">
+        <next>
+          <block type="import_block" id="HPZ1eVUiZxk7DUm=[_%%">
+            <next>
+              <block type="random" id=";C9P=!zW8nVS[#Sa@Fh#">
+                <next>
+                  <block type="mccreate" id="3VrNJRivJIWSazXGO`vy">
+                    <next>
+                      <block type="equalsblock" id="Ny(m6Vu+`Osq}-`0PtmL">
+                        <field name="1">Blocks_List</field>
+                        <field name="2">[2,3,4,5,15,16,17,18,19,20,45,46,47,246,247]</field>
+                        <next>
+                          <block type="while_true" id="iCn^SeOG?zqN;dh1Ie!e">
+                            <statement name="DO">
+                              <block type="if" id="Nc2DE{GNCru?395tXE-B">
+                                <field name="var">microbit.button_a.was_pressed()</field>
+                                <statement name="DO">
+                                  <block type="displayscrollvar" id="eLzQn[PXJtTSdOeuy(EX">
+                                    <field name="varmess">"Print wall"</field>
+                                    <next>
+                                      <block type="equalsblock" id="Pv=5Xn54qGA8#+K-xBUG">
+                                        <field name="1">RB1</field>
+                                        <field name="2">random.choice(Blocks_List)</field>
+                                        <next>
+                                          <block type="equalsblock" id="C4XUaCPfwe;sBn~ny:|r">
+                                            <field name="1">RB2</field>
+                                            <field name="2">random.choice(Blocks_List)</field>
+                                            <next>
+                                              <block type="equalsblock" id="CEV:}xn=IOR],7;!-^.A">
+                                                <field name="1">RB3</field>
+                                                <field name="2">random.choice(Blocks_List)</field>
+                                                <next>
+                                                  <block type="equalsblock" id="csr1+{_%XRr]}Q6_BB4s">
+                                                    <field name="1">RB4</field>
+                                                    <field name="2">random.choice(Blocks_List)</field>
+                                                    <next>
+                                                      <block type="mcpos" id="bmm/vU`SA.NJzhov7SfO">
+                                                        <next>
+                                                          <block type="printwall" id="~jN|vPun!id!ZU/|l4/D">
+                                                            <field name="11">RB4</field>
+                                                            <field name="12">RB2</field>
+                                                            <field name="13">RB1</field>
+                                                            <field name="14">RB1</field>
+                                                            <field name="15">RB3</field>
+                                                            <field name="16">RB4</field>
+                                                            <field name="17">RB2</field>
+                                                            <field name="18">RB4</field>
+                                                            <field name="21">RB3</field>
+                                                            <field name="22">RB1</field>
+                                                            <field name="23">RB1</field>
+                                                            <field name="24">RB3</field>
+                                                            <field name="25">RB2</field>
+                                                            <field name="26">RB4</field>
+                                                            <field name="27">RB3</field>
+                                                            <field name="28">RB2</field>
+                                                            <field name="31">RB1</field>
+                                                            <field name="32">RB4</field>
+                                                            <field name="33">RB3</field>
+                                                            <field name="34">RB1</field>
+                                                            <field name="35">RB3</field>
+                                                            <field name="36">RB2</field>
+                                                            <field name="37">RB1</field>
+                                                            <field name="38">RB4</field>
+                                                            <field name="41">RB2</field>
+                                                            <field name="42">RB3</field>
+                                                            <field name="43">RB4</field>
+                                                            <field name="44">RB1</field>
+                                                            <field name="45">RB3</field>
+                                                            <field name="46">RB3</field>
+                                                            <field name="47">RB1</field>
+                                                            <field name="48">RB2</field>
+                                                            <field name="51">RB4</field>
+                                                            <field name="52">RB2</field>
+                                                            <field name="53">RB1</field>
+                                                            <field name="54">RB3</field>
+                                                            <field name="55">RB2</field>
+                                                            <field name="56">RB2</field>
+                                                            <field name="57">RB2</field>
+                                                            <field name="58">RB1</field>
+                                                            <field name="61">RB3</field>
+                                                            <field name="62">RB4</field>
+                                                            <field name="63">RB2</field>
+                                                            <field name="64">RB1</field>
+                                                            <field name="65">RB4</field>
+                                                            <field name="66">RB3</field>
+                                                            <field name="67">RB1</field>
+                                                            <field name="68">RB3</field>
+                                                            <field name="71">RB2</field>
+                                                            <field name="72">RB4</field>
+                                                            <field name="73">RB3</field>
+                                                            <field name="74">RB1</field>
+                                                            <field name="75">RB2</field>
+                                                            <field name="76">RB4</field>
+                                                            <field name="77">RB3</field>
+                                                            <field name="78">RB4</field>
+                                                            <field name="81">RB1</field>
+                                                            <field name="82">RB4</field>
+                                                            <field name="83">RB4</field>
+                                                            <field name="84">RB3</field>
+                                                            <field name="85">RB2</field>
+                                                            <field name="86">RB3</field>
+                                                            <field name="87">RB1</field>
+                                                            <field name="88">RB4</field>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
